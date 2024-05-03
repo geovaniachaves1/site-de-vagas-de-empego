@@ -31,8 +31,9 @@
                     </ul>
                </nav>
                <div class="user-actions">
-                    <a href="#" class="login-btn">Entrar</a>
-                    <a href="#" class="signup-btn">Cadastrar-se</a>
+                    <a href="#" class="login-btn">Anunciar vaga grátis</a>
+                    <a href="#" class="signup-btn">Cadastrar CV grátis</a>
+                    
                </div>
           </div>
      </header>
@@ -48,8 +49,8 @@
 
                <div class="input-bx">
                     <div class="search-sect">
-                         <input type="text" class="search-textbox" placeholder="    Cargo, Palavra-Chave, Empresa">
-                         <i class="fa fa-search icons aria-hidden icons"aria-hidden="true"></i>
+                         <input type="text" class="search-textbox" placeholder="  Cargo, Palavra-Chave, Empresa">
+                         <i class="fa fa-search icons aria-hidden icons" aria-hidden="true"></i>
                     </div>
                     <div class="search-sect">
                          <input type="text" class="search-textbox" placeholder="        Cidade, estado, ou 'remoto">
@@ -67,21 +68,184 @@
                <img src="./img/foto.png">
           </div>
      </main>
-     <!------------------------------------------- pesquisar por categoria  --------------------------------------------------------->
-     <section class="categorias" >
-          <div class="container">
-                <h3>
-                    Explorar por <strong> categorias </strong>
-                </h3>
-          </div>
-         
-                   </div>
-     </section>
+
+     <!-- Seção de pagamento online -->
+    <div class="pagamento">
+     <h2 class="titulo-pagamento">Pagamento Online</h2>
+     <p>Escolha um método de pagamento</p>
+     <button id="pagar-button">Pagar</button>
+    </div>
      
+
+     <!------------------------------------------- pesquisar por categoria  <section>---------------------------->
+     <section>
+          <div class="container">
+          <h3>
+               Ache um emprego <strong>na sua área </strong>
+          </h3>
+
+     </div>
+     <div class="section-categoria">
+          <div class="container">
+               <div class="lista-categoria">
+                    <div class="width-33"><img class="skill-img" src="./img/desing.png"> </div>
+                    <div class="width-66">
+                         <h4>Design</h4>
+
+                         <button class="view-button">7.600 Vagas</button>
+                    </div>
+               </div>
+               <div class="lista-categoria">
+                    <div class="width-33"><img class="skill-img" src="./img/tecnologia.png"></div>
+                    <div class="width-66">
+                         <h4>Tecnologia</h4>
+                         <button class="view-button">5.000 Vagas</button>
+                    </div>
+               </div>
+               <div class="lista-categoria">
+                    <div class="width-33"> <img class="skill-img" src="./img/analista (2).png"></div>
+                    <div class="width-66">
+                         <h4>Analista</h4>
+
+                         <button class="view-button">1.100 Vagas</button>
+                    </div>
+               </div>
+               <div class="lista-categoria">
+                    <div class="width-33"> <img class="skill-img" src="./img/marketin.png"></div>
+                    <div class="width-66">
+                         <h4> Marketing</h4>
+                         <button class="view-button">2.345 Vagas</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!---------------------------------Vagas Recomendadas------------------------------>
+     <div class="vagas-recentes">
+          <div class="container">
+               <h2 class="vagas-recentes-heading">Vagas Recomendadas</h2>
+          </div>
+
+          <!-----------------------------------------lista de vagas--------------------------------->
+
+          <div class="lista">
+               <div class="lista-recentes">
+                    <div>
+                         <h4 class="titulo-vaga">Desenvolvedor Web</h4>
+                         <p class="nome-empresa">1 vaga | Prestador de serviços (PJ) | Publicada em 19/04</p>
+                    </div>
+                    <div> <i class="fa fa-briefcase" aria-hidden="true"></i> 1 a 4 anos</div>
+                    <div><i class="fa-solid fa-circle-dollar-to-slot"></i> R$ 5.000 - R$ 7.000</div>
+                    <div><i class="fa-solid fa-location-dot"></i> Curitiba - PR</div>
+                    <div>
+                         <p class="skill-vaga"><b>Skills: </b>HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, </p>
+                    </div>
+                    <div> <a href="#" class="aplica-vaga">Quero me Candidatar</a> </div>
+               </div>
+          </div>
+
+          <!-----------------------------------------lista vagas------------------------------------------->
+          <div class="lista">
+               <div class="lista-recentes">
+                    <div>
+                         <h4 class="titulo-vaga"> Design </h4>
+                         <p class="nome-empresa">1 vaga | Prestador de serviços (PJ) | Publicada em 04/03</p>
+                    </div>
+                    <div> <i class="fa fa-briefcase" aria-hidden="true"></i> 2 Anos </div>
+                    <div><i class="fa-solid fa-circle-dollar-to-slot"></i> De R$ 6.001,00 a R$ 7.000,00</div>
+                    <div><i class="fa-solid fa-location-dot"></i></i> Belo Horizonte - MG</div>
+                    <div>
+                         <p class="skill-vaga"><b>Skills:</b>COREL DRAW, CANVA, ILLUSTRATOR,</p>
+                    </div>
+                    <div> <a href="#" class="aplica-vaga">Quero me Candidatar</a> </div>
+               </div>
+          </div>
+          <!-----------------------------------------lista vagas------------------------------------------->
+          <div class="lista">
+               <div class="lista-recentes">
+                    <div>
+                         <h4 class="titulo-vaga">Assistente de Vendas</h4>
+                         <p class="nome-empresa">1 vaga | Prestador de serviços (PJ) | Publicada em 19/02 </p>
+                    </div>
+                    <div> <i class="fa fa-briefcase" aria-hidden="true"></i> 5 anos </div>
+                    <div><i class="fa-solid fa-circle-dollar-to-slot"></i> Acima de R$ 20.000,00</div>
+                    <div><i class="fa-solid fa-location-dot"></i> Rio de Janeiro - RJ</div>
+                    <div>
+                         <p class="skill-vaga"><b> Skills:</b> ATENDIMENTO AO CLIENTE, GESTÃO DE ESTOQUE, <br>
+                              SEGUIMENTO PÓS VENDA </p>
+                    </div>
+                    <div> <a href="#" class="aplica-vaga">Quero me Candidatar</a> </div>
+               </div>
+          </div>
+          <!-----------------------------------------lista de vagas--------------------------------->
+
+          <div class="lista">
+               <div class="lista-recentes">
+                    <div>
+                         <h4 class="titulo-vaga">Desenvolvedor FullStack</h4>
+                         <p class="nome-empresa">1 vaga | Prestador de serviços (PJ)| Publicada em 02/05</p>
+                    </div>
+                    <div> <i class="fa fa-briefcase" aria-hidden="true"></i> - </div>
+                    <div><i class="fa-solid fa-circle-dollar-to-slot"></i>R$ 4.500,00 </div>
+                    <div><i class="fa-solid fa-location-dot"></i> Itapetininga - SP</div>
+                    <div>
+                         <p class="skill-vaga"><b>Skills:</b> HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, NODEJS </p>
+                    </div>
+                    <div> <a href="#" class="aplica-vaga">Quero me Candidatar</a> </div>
+               </div>
+          </div>
+          </section>
+     </div>
+     <footer>
+     
+            <div class="container">
+              <div class="titulo-h4">
+                <h4>Institucional</h4>
+                <ul class="footer-list">
+                  <li >Ajuda</li>
+                  <li>Contatos</li>
+                  <li>Certificação</li>
+                  <li>Sobre Nós</li>
+                  <li>Trabalhe Conosco</li>
+                  <li>Compliance</li>
+                </ul>
+              </div>
+              <div class="titulo-h4">
+                <h4>Para Candidatos</h4>
+                <ul class="footer-list">
+                  <li >Buscas salvas (Aviso de Vagas)</li>
+                  <li >Buscas de Vagas</li>
+                  <li >Por área/cargo</li>
+                  <li >Por estado</li>
+                  <li >Conheça Todas as Soluções</li>
+                  <li >Guia de Profissões</li>
+                  
+                </ul>
+              </div>
+              <div class="titulo-h4">
+                <h4 >Para Empresas</h4>
+                <ul class="footer-list">
+                  <li>Produtos para Empresas</li>
+                  <li>Anunciar vagas</li>
+                  <li>Busca de currículos</li>
+                  <li>Busca certa</li>
+                  <li>Pesquisa salarial</li>
+                  <li>Recrutamento PcD</li>
+                </ul>
+              </div>
+              <div class="titulo-h4">
+                <h4>Vem com a gente nas redes sociais!</h4>
+                <ul class="get-in-touch" >
+                  <li><img src="./img/icon-facebook.png"></li>
+                  <li><img src="./img/icon-twitter.png"></li>
+                  <li><img src="./img/icon-instagram.png"></li>
+                  <li><img src="./img/icon-linkedin.png"></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-
+        </footer>
 </body>
 
 </html>
+
